@@ -25,9 +25,18 @@ public class Facebook {
          */
 
 //        driver.findElement(By.id("email")).sendKeys("lineer2@gmail.com");
-        driver.findElement(By.xpath("//input[@name='email']")).sendKeys("email@email.com");
-        driver.findElement(By.xpath("//*[@type='password']")).sendKeys("123456");
-        driver.findElement(By.xpath("//button[@name='login']")).click();
+
+        //Xpath
+////        driver.findElement(By.xpath("//input[@name='email']")).sendKeys("email@email.com");
+//        driver.findElement(By.xpath("//input[contains(@name,'ema')]")).sendKeys("email@email.com");  //regular expression
+//        driver.findElement(By.xpath("//*[@type='password']")).sendKeys("123456");
+//        driver.findElement(By.xpath("//button[@name='login']")).click();
+
+        //Css to iste ako Xpath
+//        driver.findElement(By.cssSelector("input[name='email']")).sendKeys("email@email.com");
+        driver.findElement(By.cssSelector("input[name*='ema']")).sendKeys("email@email.com");  //regular expression
+        driver.findElement(By.cssSelector("[type='password']")).sendKeys("123456");
+        driver.findElement(By.cssSelector("button[name='login']")).click();
 
     }
 }

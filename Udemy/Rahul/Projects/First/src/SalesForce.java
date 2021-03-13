@@ -16,5 +16,22 @@ public class SalesForce {
         System.out.println(driver.findElement(By.id("error")).getText());
         System.out.println(driver.findElement(By.cssSelector("div#error.loginError")).getText());
 
+        //Traverse
+//        driver.findElement(By.xpath("//div[@id='content']/div[3]/div/a[@id='mydomainLink']")).click();
+//        driver.findElement(By.xpath("//div[@id='content']/div[3]/div/a[2]")).click();
+
+        //Sibling
+//        driver.findElement(By.xpath("//*[@id='forgot_password_link']/following-sibling::a[1]")).click();
+//        driver.findElement(By.xpath("//*[@id='mydomainLink']/preceding-sibling::a")).click();
+
+        //Parent
+//        driver.findElement(By.xpath("//*[@id='mydomainLink']/parent::div/parent::div/parent::div/following-sibling::div")).click();
+
+        //Text
+//        driver.findElement(By.xpath("//*[text()='Use Custom Domain']")).click();
+
+        //CSS
+
+
     }
 }
