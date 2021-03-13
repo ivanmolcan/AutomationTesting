@@ -3,6 +3,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 import java.util.List;
 
@@ -56,13 +57,18 @@ public class Airport {
         //Radio Button
         driver.findElement(By.cssSelector("[id*='friendsandfamily']")).click();
         System.out.println(driver.findElement(By.cssSelector("[id*='friendsandfamily']")).isSelected());
+        ///TestNG
+        Assert.assertTrue(driver.findElement(By.cssSelector("[id*='friendsandfamily']")).isSelected());
 
-        //Zaskrtnutie vsetkych checkboxov
+        ///Zaskrtnutie vsetkych checkboxov
         System.out.println(driver.findElements(By.xpath("//*[@type='checkbox']")).size());
-        List<WebElement> checks = driver.findElements(By.xpath("//*[@type='checkbox']"));
-        for (WebElement check : checks) {
-            check.click();
-        }
+        Assert.assertEquals(driver.findElements(By.xpath("//*[@type='checkbox']")).size(), 6);
+
+        //Radio Button
+        driver.findElement(By.xpath("//*[text()='Round Trip']")).click();
+        Assert.assertTrue(driver.findElement(By.xpath("//*[text()='Round Trip']")).isEnabled());
+        driver.findElement(By.xpath("//*[text()='One Way']")).click();
+        Assert.assertTrue(driver.findElement(By.xpath("//*[text()='One Way']")).isEnabled());
 
     }
 }
