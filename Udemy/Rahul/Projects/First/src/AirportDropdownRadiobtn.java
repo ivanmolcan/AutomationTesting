@@ -7,7 +7,7 @@ import org.testng.Assert;
 
 import java.util.List;
 
-public class Airport {
+public class AirportDropdownRadiobtn {
 
     public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "D:\\Doc\\Programovanie\\Automation Testing\\Materials\\Webdriver\\chromedriver.exe");

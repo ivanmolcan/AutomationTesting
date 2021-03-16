@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-public class Scope {
+public class ScopeTagyA {
 
     public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "D:\\Doc\\Programovanie\\Automation Testing\\Materials\\Webdriver\\chromedriver.exe");
@@ -35,16 +35,18 @@ public class Scope {
 
         //kliknutie na vsetky linky
 //        for(int j=1;j<footerDriver.findElement(By.xpath("//table/tbody/tr/td[1]/ul")).findElements(By.tagName("a")).size(); j++ ){
-//            //kliknutie linky na kazdy novy tab
+//            //kliknutie linky na otvorenie noveho tabu
 //            String clickOnLink = Keys.chord(Keys.CONTROL,Keys.ENTER);
 //            footerDriver.findElement(By.xpath("//table/tbody/tr/td[1]/ul")).findElements(By.tagName("a")).get(j).sendKeys(clickOnLink);
 //        }
 
         List<WebElement> list = footerDriver.findElement(By.xpath("//table/tbody/tr/td[1]/ul")).findElements(By.tagName("a"));
         for (WebElement l : list) {
+            //kliknutie linky na otvorenie noveho tabu
             l.sendKeys(Keys.chord(Keys.CONTROL,Keys.ENTER));
         }
 
+        //vypisanie title z kazdeho otvoreneho tabu
         Set<String> windows = driver.getWindowHandles(); //[parentid, childid]
         Iterator<String> it = windows.iterator();
         while(it.hasNext()){
