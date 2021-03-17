@@ -22,6 +22,7 @@ public class SalesForceSiblingParent {
 
         //Sibling
 //        driver.findElement(By.xpath("//*[@id='forgot_password_link']/following-sibling::a[1]")).click();
+//        rice.stream().map(s -> s.findElement(By.xpath("./following-sibling::td[1]")).getText()).forEach(s -> System.out.println(s));
 //        driver.findElement(By.xpath("//*[@id='mydomainLink']/preceding-sibling::a")).click();
 
         //Parent

@@ -8,7 +8,7 @@ import org.testng.Assert;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class Scrolling {
+public class ScrollingJavascript {
 
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver", "D:\\Doc\\Programovanie\\Automation Testing\\Materials\\Webdriver\\chromedriver.exe");

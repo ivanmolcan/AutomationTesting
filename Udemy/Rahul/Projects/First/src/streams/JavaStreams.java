@@ -1,13 +1,9 @@
-package javaStreams;
+package streams;
 
 import org.testng.Assert;
-import org.testng.annotations.Test;
 
-import javax.sound.midi.Soundbank;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Locale;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -81,8 +77,16 @@ public class JavaStreams {
         //prehodenie stream do listu
         List<String> ls = Stream.of("Ivan", "Peter", "John", "Jozo", "Viktor").filter(s -> s.endsWith("r"))
                 .map(s -> s.toUpperCase()).collect(Collectors.toList());
-
         System.out.println(ls.get(0));
+        System.out.println();
+
+        //print unique number from this array, sort it
+        Stream.of(3, 2, 2, 7, 5, 1, 9, 7).distinct().sorted().forEach(s -> System.out.print(s + ", "));
+        System.out.println();
+
+        //zobrazit len treti index
+        List<Integer> li = Stream.of(3, 2, 2, 7, 5, 1, 9, 7).distinct().sorted().collect(Collectors.toList());
+        System.out.println(li.get(3));
 
     }
 }
