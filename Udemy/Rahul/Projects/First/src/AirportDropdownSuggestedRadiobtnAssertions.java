@@ -7,7 +7,7 @@ import org.testng.Assert;
 
 import java.util.List;
 
-public class AirportDropdownSuggestedRadiobtn {
+public class AirportDropdownSuggestedRadiobtnAssertions {
 
     public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "D:\\Doc\\Programovanie\\Automation Testing\\Materials\\Webdriver\\chromedriver.exe");
@@ -66,6 +66,7 @@ public class AirportDropdownSuggestedRadiobtn {
 
         //Radio Button
         driver.findElement(By.xpath("//*[text()='Round Trip']")).click();
+        ///Assertions, treba instalovat jar TestNG
         Assert.assertTrue(driver.findElement(By.xpath("//*[text()='Round Trip']")).isEnabled());
         driver.findElement(By.xpath("//*[text()='One Way']")).click();
         Assert.assertTrue(driver.findElement(By.xpath("//*[text()='One Way']")).isEnabled());
