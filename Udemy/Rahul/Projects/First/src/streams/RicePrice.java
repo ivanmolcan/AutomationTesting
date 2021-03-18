@@ -18,13 +18,18 @@ public class RicePrice {
         driver.get("https://rahulshettyacademy.com/seleniumPractise/#/offers");
 
         driver.findElement(By.cssSelector("[class='table table-bordered'] thead th:nth-child(1)")).click();
-        driver.findElement(By.cssSelector("[class='table table-bordered'] thead th:nth-child(1)")).click();
+//        driver.findElement(By.cssSelector("[class='table table-bordered'] thead th:nth-child(1)")).click();
+        List<WebElement> rice;
 
-        List<WebElement> list1 = driver.findElements(By.cssSelector("[class='table table-bordered'] tr td:nth-child(1)"));
+        do {
+            List<WebElement> vegFruitName = driver.findElements(By.cssSelector("[class='table table-bordered'] tr td:nth-child(1)"));
+            rice = vegFruitName.stream().filter(s -> s.getText().contains("Rice")).collect(Collectors.toList());
+            rice.stream().map(s -> s.findElement(By.xpath("./following-sibling::td[1]")).getText()).forEach(s -> System.out.println(s));
 
-        List<WebElement> rice = list1.stream().filter(s -> s.getText().contains("Rice")).collect(Collectors.toList());
-        rice.stream().map(s -> s.findElement(By.xpath("./following-sibling::td[1]")).getText()).forEach(s -> System.out.println(s));
-
-
+            //ak nie je najdena ryza
+            if (rice.size() < 1) {
+                driver.findElement(By.xpath("//*[@aria-label='Next']")).click();
+            }
+        } while (rice.size() < 1);
     }
 }
