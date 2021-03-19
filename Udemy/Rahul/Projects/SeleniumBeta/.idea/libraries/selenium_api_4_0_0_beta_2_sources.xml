@@ -1,0 +1,48 @@
+<component name="libraryTable">
+  <library name="selenium-api-4.0.0-beta-2-sources">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-api-4.0.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-chrome-driver-4.0.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-chromium-driver-4.0.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-devtools-4.0.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-devtools-v85-4.0.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-devtools-v86-4.0.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-devtools-v87-4.0.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-devtools-v88-4.0.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-devtools-v89-4.0.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-edge-driver-4.0.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-firefox-driver-4.0.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-firefox-xpi-driver-4.0.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-http-4.0.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-ie-driver-4.0.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-java-4.0.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-json-4.0.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-opera-driver-4.0.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-remote-driver-4.0.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-safari-driver-4.0.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-support-4.0.0-beta-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-api-4.0.0-beta-2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-chrome-driver-4.0.0-beta-2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-chromium-driver-4.0.0-beta-2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-devtools-4.0.0-beta-2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-devtools-v85-4.0.0-beta-2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-devtools-v86-4.0.0-beta-2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-devtools-v87-4.0.0-beta-2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-devtools-v88-4.0.0-beta-2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-devtools-v89-4.0.0-beta-2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-edge-driver-4.0.0-beta-2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-firefox-driver-4.0.0-beta-2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-firefox-xpi-driver-4.0.0-beta-2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-http-4.0.0-beta-2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-ie-driver-4.0.0-beta-2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-json-4.0.0-beta-2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-opera-driver-4.0.0-beta-2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-remote-driver-4.0.0-beta-2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-safari-driver-4.0.0-beta-2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/selenium-java-4.0.0-beta-2/selenium-support-4.0.0-beta-2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
