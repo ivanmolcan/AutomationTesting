@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
+
+    <parameter name="URL" value="http://qaclickacademy.com/" />
+    <parameter name="APIKey/usrname" value="123456" />
+
     <test verbose="2" preserve-order="true"
           name="D:/Doc/Programovanie/Automation Testing/Udemy/Rahul/Projects/TestNG/src">
         <classes>

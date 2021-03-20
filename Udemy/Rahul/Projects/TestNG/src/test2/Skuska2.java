@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class Skuska2 {
 
-    @Test
+    @Test(groups={"Smoke"})
     public void skuska() {
         System.out.println("Skuska 2");
     }

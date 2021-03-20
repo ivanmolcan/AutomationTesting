@@ -12,7 +12,7 @@ public class BasicTest {
         System.out.println("Hello Ivan");
     }
 
-    @Test
+    @Test(groups = {"Smoke"})
     public void secondTest() {
         System.out.println("Bye Ivan");
     }
@@ -22,7 +22,7 @@ public class BasicTest {
         System.out.println("mobile1");
     }
 
-    @Test
+    @Test(timeOut = 4000)
     public void mobile2() {
         System.out.println("mobile2");
     }
