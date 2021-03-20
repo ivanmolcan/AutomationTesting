@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/Doc/Programovanie/Automation Testing/Udemy/Rahul/Projects/TestNG/src">
+        <classes>
+            <class name="test2.Skuska2">
+                <methods>
+                    <include name="skuska"/>
+                </methods>
+            </class>
+            <class name="test.BasicTest">
+                <methods>
+                    <include name="demo"/>
+                    <include name="secondTest"/>
+<!--                    <exclude name="mobile.*"/>-->
+                    <include name="mobile1"/>
+                    <include name="mobile2"/>
+                    <include name="mobile3"/>
+                </methods>
+            </class>
+            <class name="test.Skuska">
+                <methods>
+                    <include name="skuska"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
