@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/Doc/Programovanie/Automation Testing/Udemy/Rahul/Projects/MavenBasicProject/src/test/java/sk/ivanmolcan">
+        <classes>
+            <class name="sk.ivanmolcan.AppTest">
+                <methods>
+                    <include name="shouldAnswerWithTrue"/>
+                </methods>
+            </class>
+            <class name="sk.ivanmolcan.AppiumTest">
+                <methods>
+                    <include name="nativeAppAndroid"/>
+                    <include name="iosApp"/>
+                </methods>
+            </class>
+            <class name="sk.ivanmolcan.RestApiTest">
+                <methods>
+                    <include name="posjIra"/>
+                    <include name="deleteTwitter"/>
+                </methods>
+            </class>
+            <class name="sk.ivanmolcan.SeleniumTest">
+                <methods>
+                    <include name="browserAutomation"/>
+                    <include name="elementsUI"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
