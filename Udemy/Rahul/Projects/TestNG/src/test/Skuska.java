@@ -1,5 +1,6 @@
 package test;
 
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 public class Skuska {
@@ -18,6 +19,7 @@ public class Skuska {
     @Test
     public void api() {
         System.out.println("api");
+        Assert.assertTrue(false);
     }
 
     @BeforeTest
@@ -56,7 +58,7 @@ public class Skuska {
     }
 
     @Test(dataProvider = "getData")
-    public void first() {
-        System.out.println("api");
+    public void getDataTest(String username, String pass) {
+        System.out.println("Username: " + username + " Password: " + pass);
     }
 }

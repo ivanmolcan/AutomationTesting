@@ -1,5 +1,6 @@
 package test;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
@@ -20,6 +21,7 @@ public class BasicTest {
     @Test
     public void mobile1() {
         System.out.println("mobile1");
+        Assert.assertTrue(false);
     }
 
     @Test(timeOut = 4000)
