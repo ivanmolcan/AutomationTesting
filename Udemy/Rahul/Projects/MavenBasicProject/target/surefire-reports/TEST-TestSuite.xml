@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.566" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.603" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk-15.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Ivan\AppData\Local\Temp\surefire398206261189119525\surefirebooter8389752075251818000.jar C:\Users\Ivan\AppData\Local\Temp\surefire398206261189119525 2021-03-21T21-41-45_055-jvmRun1 surefire14935594992978517012tmp surefire_05670542818659830111tmp"/>
+    <property name="sun.java.command" value="C:\Users\Ivan\AppData\Local\Temp\surefire13485854495109340013\surefirebooter8413068137200970728.jar C:\Users\Ivan\AppData\Local\Temp\surefire13485854495109340013 2021-03-22T19-55-01_542-jvmRun1 surefire6384739377525276537tmp surefire_014363084358968333147tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Doc\Programovanie\Automation Testing\Udemy\Rahul\Projects\MavenBasicProject\target\test-classes;D:\Doc\Programovanie\Automation Testing\Udemy\Rahul\Projects\MavenBasicProject\target\classes;C:\Users\Ivan\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Ivan\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Ivan\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Ivan\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Ivan\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Ivan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Ivan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Ivan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Ivan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Ivan\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Ivan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Ivan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Ivan\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Ivan\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Ivan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Ivan\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Ivan\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Ivan\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Ivan\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Ivan\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Ivan\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Ivan\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Ivan\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Ivan\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\Ivan\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\Users\Ivan\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\Users\Ivan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Ivan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Ivan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Ivan\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Ivan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\Ivan\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Ivan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Ivan\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\Ivan\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\Users\Ivan\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\Ivan\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\Ivan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Ivan\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Ivan\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Ivan\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Ivan\AppData\Local\Temp\surefire398206261189119525\surefirebooter8389752075251818000.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Ivan\AppData\Local\Temp\surefire13485854495109340013\surefirebooter8413068137200970728.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.1+9-18"/>
@@ -57,11 +57,11 @@
     <property name="java.class.version" value="59.0"/>
   </properties>
   <testcase name="shouldAnswerWithTrue" classname="sk.ivanmolcan.AppTest" time="0.005"/>
-  <testcase name="nativeAppAndroid" classname="sk.ivanmolcan.AppiumTest" time="0.001">
+  <testcase name="nativeAppAndroid" classname="sk.ivanmolcan.AppiumTest" time="0.002">
     <system-out><![CDATA[nativeAppAndroid
 ]]></system-out>
   </testcase>
-  <testcase name="iosApp" classname="sk.ivanmolcan.AppiumTest" time="0.001">
+  <testcase name="iosApp" classname="sk.ivanmolcan.AppiumTest" time="0">
     <system-out><![CDATA[IOS
 ]]></system-out>
   </testcase>
@@ -69,7 +69,7 @@
     <system-out><![CDATA[postJira
 ]]></system-out>
   </testcase>
-  <testcase name="deleteTwitter" classname="sk.ivanmolcan.RestApiTest" time="0">
+  <testcase name="deleteTwitter" classname="sk.ivanmolcan.RestApiTest" time="0.002">
     <system-out><![CDATA[deleteTwitter
 ]]></system-out>
   </testcase>

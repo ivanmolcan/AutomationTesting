@@ -1,17 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-21T21:45:15 CET" name="Surefire suite" finished-at="2021-03-21T21:45:15 CET" duration-ms="35">
+  <suite started-at="2021-03-22T19:55:02 CET" name="All Test Suite" finished-at="2021-03-22T19:55:03 CET" duration-ms="56">
     <groups>
     </groups>
-    <test started-at="2021-03-21T21:45:15 CET" name="Surefire test" finished-at="2021-03-21T21:45:15 CET" duration-ms="35">
+    <test started-at="2021-03-22T19:55:02 CET" name="D:/Doc/Programovanie/Automation Testing/Udemy/Rahul/Projects/MavenBasicProject/src/test/java/sk/ivanmolcan" finished-at="2021-03-22T19:55:03 CET" duration-ms="56">
+      <class name="sk.ivanmolcan.AppiumTest">
+        <test-method signature="nativeAppAndroid()[pri:0, instance:sk.ivanmolcan.AppiumTest@6b19b79]" started-at="2021-03-22T19:55:02 CET" name="nativeAppAndroid" finished-at="2021-03-22T19:55:02 CET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nativeAppAndroid -->
+        <test-method signature="iosApp()[pri:0, instance:sk.ivanmolcan.AppiumTest@6b19b79]" started-at="2021-03-22T19:55:03 CET" name="iosApp" finished-at="2021-03-22T19:55:03 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iosApp -->
+      </class> <!-- sk.ivanmolcan.AppiumTest -->
+      <class name="sk.ivanmolcan.SeleniumTest">
+        <test-method signature="browserAutomation()[pri:0, instance:sk.ivanmolcan.SeleniumTest@7692d9cc]" started-at="2021-03-22T19:55:03 CET" name="browserAutomation" finished-at="2021-03-22T19:55:03 CET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAutomation -->
+        <test-method signature="elementsUI()[pri:0, instance:sk.ivanmolcan.SeleniumTest@7692d9cc]" started-at="2021-03-22T19:55:03 CET" name="elementsUI" finished-at="2021-03-22T19:55:03 CET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementsUI -->
+      </class> <!-- sk.ivanmolcan.SeleniumTest -->
+      <class name="sk.ivanmolcan.RestApiTest">
+        <test-method signature="posjIra()[pri:0, instance:sk.ivanmolcan.RestApiTest@2a32de6c]" started-at="2021-03-22T19:55:03 CET" name="posjIra" finished-at="2021-03-22T19:55:03 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- posjIra -->
+        <test-method signature="deleteTwitter()[pri:0, instance:sk.ivanmolcan.RestApiTest@2a32de6c]" started-at="2021-03-22T19:55:03 CET" name="deleteTwitter" finished-at="2021-03-22T19:55:03 CET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTwitter -->
+      </class> <!-- sk.ivanmolcan.RestApiTest -->
       <class name="sk.ivanmolcan.AppTest">
-        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:sk.ivanmolcan.AppTest@59717824]" started-at="2021-03-21T21:45:15 CET" name="shouldAnswerWithTrue" finished-at="2021-03-21T21:45:15 CET" duration-ms="5" status="PASS">
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:sk.ivanmolcan.AppTest@6b4a4e18]" started-at="2021-03-22T19:55:02 CET" name="shouldAnswerWithTrue" finished-at="2021-03-22T19:55:02 CET" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAnswerWithTrue -->
       </class> <!-- sk.ivanmolcan.AppTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- D:/Doc/Programovanie/Automation Testing/Udemy/Rahul/Projects/MavenBasicProject/src/test/java/sk/ivanmolcan -->
+  </suite> <!-- All Test Suite -->
 </testng-results>
