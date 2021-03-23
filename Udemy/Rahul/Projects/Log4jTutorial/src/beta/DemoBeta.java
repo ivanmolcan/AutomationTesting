@@ -1,18 +1,19 @@
-package alpha;
+package beta;
 
-import org.apache.logging.log4j.*;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-public class Demo {
+public class DemoBeta {
 
-    private static Logger log = LogManager.getLogger(Demo.class.getName());
+    private static Logger log = LogManager.getLogger(DemoBeta.class.getName());
 
     public static void main(String[] args) {
 
         //resources/log4j2.xml treba priradit v Project Structure/modules, ze moj package resources su resources
-        log.debug("I am debugging");
-        log.info("object is present");
-        log.error("object is not present");
-        log.fatal("this is fatal");
+        log.debug("I have clicked on button");
+        log.info("Button is displayed");
+        log.error("Button is not displayed");
+        log.fatal("Button is missing");
 
     }
 }
