@@ -5,42 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b9ade59-8af9-4f9e-813e-5df6c1dfd5fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PageObjectMaven.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/ivanmolcan/sk/RediffHomepage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/ivanmolcan/sk/RediffLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/ivanmolcan/sk/RediffPageFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sk/ivanmolcan/sk/Loginapplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/sk/ivanmolcan/sk/Loginapplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObject_nefunguje/.idea/libraries/selenium_java_3_141.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObject_nefunguje/.idea/libraries/testng_6_14_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObject_nefunguje/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObject_nefunguje/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObject_nefunguje/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObject_nefunguje/PageObject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObject_nefunguje/out/production/PageObject/objectRepository/RediffLogin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObject_nefunguje/out/production/PageObject/testCases/Loginapplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObject_nefunguje/src/objectRepository/RediffLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObject_nefunguje/src/testCases/Loginapplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObject_nefunguje/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PageObject/PageObject/.idea/libraries/TestNG.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PageObject/PageObject/.idea/libraries/selenium_java_3_141.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PageObject/PageObject/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PageObject/PageObject/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PageObject/PageObject/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PageObject/PageObject/PageObject.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PageObject/PageObject/src/objectRepository/RediffLogin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PageObject/PageObject/src/testCases/Loginapplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestNG/out/production/TestNG/test/GlobalValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestNG/out/production/TestNG/test/GlobalValues.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestNG/src/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TestNG/src/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E2EProject/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E2EProject/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E2EProject/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E2EProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E2EProject/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E2EProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E2EProject/E2EProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E2EProject/src/main/java/pageObjects/LandingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E2EProject/src/main/java/pageObjects/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E2EProject/src/main/java/resources/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E2EProject/src/main/java/sk/ivanmolcan/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E2EProject/src/test/java/sk/ivanmolcan/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
