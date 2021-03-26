@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite" configfailurepolicy="continue">
+<suite name="All Test Suite" parallel="tests">
     <test verbose="2" preserve-order="true"
           name="D:/Doc/Programovanie/Automation Testing/Udemy/Rahul/Projects/E2EProject/src/test">
         <classes>
@@ -9,11 +9,19 @@
                     <include name="basePageNavigation"/>
                 </methods>
             </class>
+        </classes>
+    </test>
+    <test name="valdateNavigation">
+        <classes>
             <class name="sk.ivanmolcan.ValidateNavigationBar">
                 <methods>
                     <include name="baseTitle"/>
                 </methods>
             </class>
+        </classes>
+    </test>
+    <test name="validateTitle">
+        <classes>
             <class name="sk.ivanmolcan.ValidateTitle">
                 <methods>
                     <include name="baseTitle"/>

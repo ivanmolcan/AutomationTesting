@@ -1,5 +1,10 @@
 package sk.ivanmolcan;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pageObjects.LandingPage;
@@ -9,9 +14,16 @@ import java.io.IOException;
 
 public class HomePage extends Base {
 
+    public WebDriver driver;
+    public static Logger log = LogManager.getLogger(Base.class.getName());
+
+    @BeforeTest
+    public void initialize() throws IOException {
+        driver = initializeDriver();
+    }
+
     @Test(dataProvider = "getData")
     public void basePageNavigation(String username, String pass) throws IOException {
-        driver = initializeDriver();
         driver.get(prop.getProperty("url"));
 
         LandingPage landing = new LandingPage(driver);
@@ -20,8 +32,13 @@ public class HomePage extends Base {
         LoginPage login = new LoginPage(driver);
         login.getEmail().sendKeys(username);
         login.getPass().sendKeys(pass);
+        log.info("Credentials entered");
         login.getLogin().click();
 
+    }
+
+    @AfterTest
+    public void teardown() {
         driver.close();
     }
 

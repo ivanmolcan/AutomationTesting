@@ -56,7 +56,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-All_Test_Suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,22 +104,22 @@
                     <div class="method-list-content passed suite-All_Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="sk.ivanmolcan.HomePage" class="method navigator-link" hash-for-method="basePageNavigation(restricteduser@qw.com, 654321)">basePageNavigation(restricteduser@qw.com, 654321)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-All_Test_Suite" title="sk.ivanmolcan.HomePage" class="method navigator-link" hash-for-method="basePageNavigation(nonrestricteduser@qw.com, 123456)">basePageNavigation(nonrestricteduser@qw.com, 123456)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="sk.ivanmolcan.ValidateNavigationBar" class="method navigator-link" hash-for-method="baseTitle">baseTitle</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-All_Test_Suite" title="sk.ivanmolcan.HomePage" class="method navigator-link" hash-for-method="basePageNavigation(restricteduser@qw.com, 654321)">basePageNavigation(restricteduser@qw.com, 654321)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-All_Test_Suite" title="sk.ivanmolcan.ValidateTitle" class="method navigator-link" hash-for-method="baseTitle">baseTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="sk.ivanmolcan.ValidateNavigationBar" class="method navigator-link" hash-for-method="baseTitle">baseTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-All_Test_Suite -->
@@ -172,18 +172,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="basePageNavigation(restricteduser@qw.com, 654321)">
-                  </a> <!-- basePageNavigation(restricteduser@qw.com, 654321) -->
-                  <span class="method-name">basePageNavigation</span>
-                  <span class="parameters">(restricteduser@qw.com, 654321)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="basePageNavigation(nonrestricteduser@qw.com, 123456)">
                   </a> <!-- basePageNavigation(nonrestricteduser@qw.com, 123456) -->
                   <span class="method-name">basePageNavigation</span>
                   <span class="parameters">(nonrestricteduser@qw.com, 123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="basePageNavigation(restricteduser@qw.com, 654321)">
+                  </a> <!-- basePageNavigation(restricteduser@qw.com, 654321) -->
+                  <span class="method-name">basePageNavigation</span>
+                  <span class="parameters">(restricteduser@qw.com, 654321)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -197,26 +197,34 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite configfailurepolicy=&quot;continue&quot; name=&quot;All Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;D:/Doc/Programovanie/Automation Testing/Udemy/Rahul/Projects/E2EProject/src/test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;All Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;D:/Doc/Programovanie/Automation Testing/Udemy/Rahul/Projects/E2EProject/src/test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;sk.ivanmolcan.HomePage&quot;&gt;
         &lt;methods&gt;
           &lt;include name=&quot;basePageNavigation&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- sk.ivanmolcan.HomePage --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- D:/Doc/Programovanie/Automation Testing/Udemy/Rahul/Projects/E2EProject/src/test --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;valdateNavigation&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
       &lt;class name=&quot;sk.ivanmolcan.ValidateNavigationBar&quot;&gt;
         &lt;methods&gt;
           &lt;include name=&quot;baseTitle&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- sk.ivanmolcan.ValidateNavigationBar --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- valdateNavigation --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;validateTitle&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
       &lt;class name=&quot;sk.ivanmolcan.ValidateTitle&quot;&gt;
         &lt;methods&gt;
           &lt;include name=&quot;baseTitle&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- sk.ivanmolcan.ValidateTitle --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- D:/Doc/Programovanie/Automation Testing/Udemy/Rahul/Projects/E2EProject/src/test --&gt;
+  &lt;/test&gt; &lt;!-- validateTitle --&gt;
 &lt;/suite&gt; &lt;!-- All Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -228,7 +236,13 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">D:/Doc/Programovanie/Automation Testing/Udemy/Rahul/Projects/E2EProject/src/test (3 classes)</span>
+                <span class="test-name">D:/Doc/Programovanie/Automation Testing/Udemy/Rahul/Projects/E2EProject/src/test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">valdateNavigation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">validateTitle (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -258,24 +272,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'basePageNavigation')
 data.setCell(0, 2, 'sk.ivanmolcan.HomePage')
-data.setCell(0, 3, 7593);
+data.setCell(0, 3, 6117);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'basePageNavigation')
 data.setCell(1, 2, 'sk.ivanmolcan.HomePage')
-data.setCell(1, 3, 7544);
+data.setCell(1, 3, 2474);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'baseTitle')
-data.setCell(2, 2, 'sk.ivanmolcan.ValidateNavigationBar')
-data.setCell(2, 3, 54);
+data.setCell(2, 2, 'sk.ivanmolcan.ValidateTitle')
+data.setCell(2, 3, 109);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'baseTitle')
-data.setCell(3, 2, 'sk.ivanmolcan.ValidateTitle')
-data.setCell(3, 3, 32);
+data.setCell(3, 2, 'sk.ivanmolcan.ValidateNavigationBar')
+data.setCell(3, 3, 60);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-All_Test_Suite">
               </div> <!-- times-div-All_Test_Suite -->
             </div> <!-- times-div -->
@@ -301,6 +315,13 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">sk.ivanmolcan.HomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">sk.ivanmolcan.ValidateNavigationBar</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
@@ -311,46 +332,47 @@ return data;
               <div class="chronological-class-name">sk.ivanmolcan.ValidateTitle</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">6570 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">sk.ivanmolcan.HomePage</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">basePageNavigation(nonrestricteduser@qw.com, 123456)</span>
-                <span class="method-start">12766 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">basePageNavigation(restricteduser@qw.com, 654321)</span>
-                <span class="method-start">20361 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">sk.ivanmolcan.ValidateNavigationBar</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">baseTitle</span>
-                <span class="method-start">27907 ms</span>
+                <span class="method-start">3024 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">sk.ivanmolcan.ValidateTitle</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">baseTitle</span>
-                <span class="method-start">27961 ms</span>
+                <span class="method-start">6860 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">sk.ivanmolcan.ValidateNavigationBar</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">27994 ms</span>
+                <span class="method-start">6972 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">sk.ivanmolcan.ValidateTitle</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">sk.ivanmolcan.ValidateNavigationBar</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">baseTitle</span>
+                <span class="method-start">8963 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">28060 ms</span>
+                <span class="method-start">9023 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sk.ivanmolcan.HomePage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">basePageNavigation(restricteduser@qw.com, 654321)</span>
+                <span class="method-start">9141 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">11616 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,0 +1,7 @@
+21:14:18.365 [main] INFO  sk.ivanmolcan.Base - Credentials entered
+21:14:24.916 [main] INFO  sk.ivanmolcan.Base - Navigation bar is displayed
+21:14:26.552 [main] INFO  sk.ivanmolcan.Base - Driver is initialized
+21:14:30.652 [main] INFO  sk.ivanmolcan.Base - Navigated to Homepage
+21:14:30.687 [main] INFO  sk.ivanmolcan.Base - Succesfully validated Text message
+21:17:06.538 [TestNG-tests-3] INFO  sk.ivanmolcan.Base - Driver is initialized
+21:17:10.872 [TestNG-tests-3] INFO  sk.ivanmolcan.Base - Navigated to Homepage

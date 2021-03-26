@@ -1,0 +1,4 @@
+21:17:10.976 [TestNG-tests-3] INFO  sk.ivanmolcan.Base - Succesfully validated Text message
+21:17:12.872 [TestNG-tests-1] INFO  sk.ivanmolcan.Base - Credentials entered
+21:17:13.035 [TestNG-tests-2] INFO  sk.ivanmolcan.Base - Navigation bar is displayed
+21:17:15.386 [TestNG-tests-1] INFO  sk.ivanmolcan.Base - Credentials entered
