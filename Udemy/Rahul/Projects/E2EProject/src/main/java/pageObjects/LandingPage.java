@@ -1,6 +1,5 @@
 package pageObjects;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -18,8 +17,11 @@ public class LandingPage {
     @FindBy(css = "a[href*='sign_in']")
     WebElement signin;
 
-    @FindBy(css = ".container>.text-center>h2")
+    @FindBy(css = "#content .container .text-center h2")
     WebElement h2;
+
+    @FindBy(css = ".nav.navbar-nav.navbar-right li a")
+    WebElement nav;
 
 //    By signin = By.cssSelector("a[href*='sign_in']");
 
@@ -28,7 +30,11 @@ public class LandingPage {
 //        return driver.findElement(signin);
     }
 
-    public WebElement getH2(){
+    public WebElement getH2() {
         return h2;
+    }
+
+    public WebElement getNav() {
+        return nav;
     }
 }
