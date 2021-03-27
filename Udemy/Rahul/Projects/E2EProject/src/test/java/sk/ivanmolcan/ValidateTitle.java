@@ -25,9 +25,9 @@ public class ValidateTitle extends Base {
     }
 
     @Test
-    public void baseTitle() {
+    public void validateTitleApp() {
         LandingPage landing = new LandingPage(driver);
-        Assert.assertEquals(landing.getH2().getText().toLowerCase(), ("Featured Courses").toLowerCase());
+        Assert.assertEquals(landing.getH2().getText().toLowerCase(), ("Featured Courses111").toLowerCase());
         log.info("Succesfully validated Text message");
     }
 

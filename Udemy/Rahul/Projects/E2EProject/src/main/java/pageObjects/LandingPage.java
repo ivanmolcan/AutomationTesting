@@ -25,8 +25,10 @@ public class LandingPage {
 
 //    By signin = By.cssSelector("a[href*='sign_in']");
 
-    public WebElement getLogin() {
-        return signin;
+    public LoginPage getLogin() {
+        signin.click();
+        LoginPage login = new LoginPage(driver);
+        return login;
 //        return driver.findElement(signin);
     }
 

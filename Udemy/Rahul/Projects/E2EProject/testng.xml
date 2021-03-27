@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite" parallel="tests">
+    <listeners>
+        <listener class-name="sk.ivanmolcan.Listeners"/>
+    </listeners>
     <test verbose="2" preserve-order="true"
           name="D:/Doc/Programovanie/Automation Testing/Udemy/Rahul/Projects/E2EProject/src/test">
         <classes>
@@ -24,7 +27,7 @@
         <classes>
             <class name="sk.ivanmolcan.ValidateTitle">
                 <methods>
-                    <include name="baseTitle"/>
+                    <include name="validateTitleApp"/>
                 </methods>
             </class>
         </classes>

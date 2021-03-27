@@ -7,6 +7,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import pageObjects.ForgotPassword;
 import pageObjects.LandingPage;
 import pageObjects.LoginPage;
 
@@ -27,13 +28,18 @@ public class HomePage extends Base {
         driver.get(prop.getProperty("url"));
 
         LandingPage landing = new LandingPage(driver);
-        landing.getLogin().click();
+//        landing.getLogin().click();
+        LoginPage login = landing.getLogin();
 
-        LoginPage login = new LoginPage(driver);
+//        LoginPage login = new LoginPage(driver);
         login.getEmail().sendKeys(username);
         login.getPass().sendKeys(pass);
         log.info("Credentials entered");
         login.getLogin().click();
+
+        ForgotPassword fp = login.getForgotPass();
+        fp.getEmail().sendKeys("skuska@skuska.sk");
+        fp.getName().click();
 
     }
 

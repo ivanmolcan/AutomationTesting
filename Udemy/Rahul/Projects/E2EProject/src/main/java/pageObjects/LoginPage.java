@@ -23,6 +23,9 @@ public class LoginPage {
     @FindBy(xpath = "//*[@name='commit']")
     WebElement login;
 
+    @FindBy(css = ".link-below-button")
+    WebElement forgotPass;
+
     public WebElement getEmail() {
         return email;
     }
@@ -33,6 +36,11 @@ public class LoginPage {
 
     public WebElement getLogin() {
         return login;
+    }
+
+    public ForgotPassword getForgotPass() {
+        forgotPass.click();
+        return new ForgotPassword(driver);
     }
 
 
