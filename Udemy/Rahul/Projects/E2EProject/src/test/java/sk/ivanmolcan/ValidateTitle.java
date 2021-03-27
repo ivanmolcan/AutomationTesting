@@ -10,10 +10,12 @@ import org.testng.annotations.Test;
 import pageObjects.LandingPage;
 
 import java.io.IOException;
+import java.util.Locale;
 
 public class ValidateTitle extends Base {
 
     public WebDriver driver;
+    LandingPage landing;
     public static Logger log = LogManager.getLogger(Base.class.getName());
 
     @BeforeTest
@@ -26,9 +28,14 @@ public class ValidateTitle extends Base {
 
     @Test
     public void validateTitleApp() {
-        LandingPage landing = new LandingPage(driver);
+        landing = new LandingPage(driver);
         Assert.assertEquals(landing.getH2().getText().toLowerCase(), ("Featured Courses111").toLowerCase());
         log.info("Succesfully validated Text message");
+    }
+
+    @Test
+    public void validateTitleP() {
+        Assert.assertEquals(landing.getTitle().getText().toLowerCase(), ("Learn Hot tools like Selenium, Appium, JMeter, SoapUI,Database Testing and more..").toLowerCase());
     }
 
     @AfterTest

@@ -30,6 +30,11 @@
                     <include name="validateTitleApp"/>
                 </methods>
             </class>
+            <class name="sk.ivanmolcan.ValidateTitle">
+                <methods>
+                    <include name="validateTitleP"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

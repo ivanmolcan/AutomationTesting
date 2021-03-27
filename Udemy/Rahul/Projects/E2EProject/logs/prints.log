@@ -1,1 +1,6 @@
-10:09:51.335 [TestNG-tests-1] INFO  sk.ivanmolcan.Base - Credentials entered
+18:37:15.672 [main] INFO  sk.ivanmolcan.Base - Navigated to Homepage
+18:38:05.062 [TestNG-tests-3] INFO  sk.ivanmolcan.Base - Driver is initialized
+18:38:08.511 [TestNG-tests-3] INFO  sk.ivanmolcan.Base - Navigated to Homepage
+18:38:10.770 [TestNG-tests-2] INFO  sk.ivanmolcan.Base - Navigation bar is displayed
+18:38:11.081 [TestNG-tests-1] INFO  sk.ivanmolcan.Base - Credentials entered
+18:38:14.150 [TestNG-tests-1] INFO  sk.ivanmolcan.Base - Credentials entered

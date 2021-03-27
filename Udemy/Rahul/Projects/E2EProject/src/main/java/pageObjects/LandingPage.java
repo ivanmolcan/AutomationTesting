@@ -23,6 +23,10 @@ public class LandingPage {
     @FindBy(css = ".nav.navbar-nav.navbar-right li a")
     WebElement nav;
 
+    //    @FindBy(css = "p:contains('Learn Hot tools')")
+    @FindBy(css = ".col-sm-6.col-md-8.hidden-xs.video-banner p")
+    WebElement title;
+
 //    By signin = By.cssSelector("a[href*='sign_in']");
 
     public LoginPage getLogin() {
@@ -38,5 +42,9 @@ public class LandingPage {
 
     public WebElement getNav() {
         return nav;
+    }
+
+    public WebElement getTitle() {
+        return title;
     }
 }
