@@ -29,8 +29,11 @@ public class Base {
         prop.load(file);
 
         //mvn test -Dbrowser=chrome
-        String browserName = System.getProperty("browser");
-//        String browserName = prop.getProperty("browser");
+        //maven berie properties browsera
+//        String browserName = System.getProperty("browser");
+
+        //property browsera sa berie z data.properties
+        String browserName = prop.getProperty("browser");
 
         if (browserName.contains("chrome")) {
             System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\main\\java\\resources\\chromedriver.exe");
