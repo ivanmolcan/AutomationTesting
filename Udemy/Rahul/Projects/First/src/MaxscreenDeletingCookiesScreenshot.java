@@ -1,4 +1,4 @@
-import org.apache.commons.io.FileUtils;
+//import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -23,7 +23,7 @@ public class MaxscreenDeletingCookiesScreenshot {
 
         //Screenshot - vlozene jar commons-io-2.8.0 (https://commons.apache.org/proper/commons-io/download_io.cgi)
         File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(src, new File("D://screenshot.png"));
+//        FileUtils.copyFile(src, new File("D://screenshot.png"));
 
     }
 }
