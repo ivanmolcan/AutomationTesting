@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="086cad35-db75-4502-9266-b0981d8a0a33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AutoIt/src/main/java/sk/ivanmolcan/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/client_combined_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auto_It.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Auto_It/WindowPopup.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fileupload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WindowPopup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fileupload.au3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fileupload.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../First/out/production/First/MaxscreenDeletingCookiesScreenshot.class" beforeDir="false" afterPath="$PROJECT_DIR$/../First/out/production/First/MaxscreenDeletingCookiesScreenshot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../First/src/MaxscreenDeletingCookiesScreenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../First/src/MaxscreenDeletingCookiesScreenshot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fileupload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fileupload.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
