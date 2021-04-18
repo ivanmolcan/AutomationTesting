@@ -1,6 +1,7 @@
 import files.Payload;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
+import org.testng.Assert;
 
 //manually wrote
 import static io.restassured.RestAssured.*;
@@ -47,9 +48,9 @@ public class Basics {
                 .extract().response().asString();
 
         JsonPath js2 = new JsonPath(getPlaceResponse);
-        js2.getString("address");
+        String actualAddress = js2.getString("address");
 
-        
+        Assert.assertEquals(actualAddress, newAddress);
 
     }
 }
