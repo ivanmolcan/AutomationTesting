@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="json-path-4.3.3-javadoc">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/rest-assured/json path/docs/json-path-4.3.3-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/rest-assured/json path/docs/rest-assured-common-4.3.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/rest-assured/json path/docs/json-path-4.3.3-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Materials/rest-assured/json path/docs/rest-assured-common-4.3.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
