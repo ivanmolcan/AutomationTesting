@@ -8,12 +8,12 @@ import static io.restassured.RestAssured.*;
 
 public class DynamicJson {
 
-    @Test
-    public void addBook() {
+    @Test(dataProvider = "BooksData")
+    public void addBook(String isbn, String aisle) {
         RestAssured.baseURI = "http://216.10.245.166";
 
         String response = given().header("Content-Type", "application/json")
-                .body(Payload.addbook("adsf", "6464"))
+                .body(Payload.addbook(isbn, aisle))
                 .when().post("/Library/Addbook.php")
                 .then().assertThat().statusCode(200)
                 .extract().response().asString();
@@ -23,11 +23,13 @@ public class DynamicJson {
         System.out.println(id);
     }
 
-    @DataProvider
-    public Object[][] getData(){
+    @DataProvider(name = "BooksData")
+    public Object[][] getData() {
 
-        new Object[][]{};
-
-        return new Object[0][];
+        return new Object[][]{
+                {"ojfty", "9363"},
+                {"trwt", "4865"},
+                {"rsfxva", "1376"}
+        };
     }
 }

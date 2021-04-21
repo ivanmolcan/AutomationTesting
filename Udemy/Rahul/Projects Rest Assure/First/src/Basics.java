@@ -2,6 +2,9 @@ import files.Payload;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import org.testng.Assert;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 //manually wrote
 import static io.restassured.RestAssured.*;
@@ -9,7 +12,7 @@ import static org.hamcrest.Matchers.*;
 
 public class Basics {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         //given - all input details
         //when - Submit the API
@@ -18,7 +21,8 @@ public class Basics {
         RestAssured.baseURI = "https://rahulshettyacademy.com";
         //Post
         String response = given().log().all().queryParam("key", "qaclick123").header("Content-Type", "application/json")
-                .body(Payload.addPlace())
+//                .body(Payload.addPlace())
+                .body(new String(Files.readAllBytes(Paths.get("D:\\Doc\\Programovanie\\Automation Testing\\Udemy\\Rahul\\Projects Rest Assure\\First\\src\\try.json"))))  //Citanie zo suboru json - parameter Path
                 .when().post("/maps/api/place/add/json")
                 .then().log().all().assertThat().statusCode(200)
                 .body("scope", equalTo("APP"))
