@@ -23,5 +23,8 @@
     <orderEntry type="library" name="rest-assured-common-4.3.3-javadoc" level="project" />
     <orderEntry type="library" name="testng-7.4.0" level="project" />
     <orderEntry type="library" name="jcommander-1.81" level="project" />
+    <orderEntry type="library" name="byte-buddy-1.8.15" level="project" />
+    <orderEntry type="library" name="client-combined-3.141.59" level="project" />
+    <orderEntry type="library" name="guava-25.0-jre" level="project" />
   </component>
 </module>
