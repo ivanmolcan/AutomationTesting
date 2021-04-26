@@ -1,15 +1,16 @@
+import io.restassured.parsing.Parser;
 import io.restassured.path.json.JsonPath;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
+import pojoDeserialization.Api;
+import pojoDeserialization.GetCourse;
+import pojoDeserialization.WebAutomation;
 
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.concurrent.TimeUnit;
+import java.util.List;
 
 //manually wrote
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
 
 public class OAuthTest {
 
@@ -26,7 +27,7 @@ public class OAuthTest {
 //        driver.findElement(By.cssSelector("[class='VfPpkd-RLmnJb']")).click();
 //        String url = driver.getCurrentUrl();
         String url = "https://rahulshettyacademy.com/getCourse.php?code=4%2F0AY0e-g7B_5p2P52pFy5zp5-4zw8LAR5ECFmcKJ8Zx4YzT7FuckRYAXPKGwS7NUuhygGO2w&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent#";
-        
+
         String partialCode = url.split("code=")[1];
         partialCode = partialCode.split("&")[0];
 
@@ -34,7 +35,7 @@ public class OAuthTest {
         String accessTokenResponse = given().urlEncodingEnabled(false)
                 .queryParams("code", partialCode)
                 .queryParams("client_id", "692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com")
-                .queryParams("client_server", "erZOWM9g3UtwNRj340YYaK_W")
+                .queryParams("client_secret", "erZOWM9g3UtwNRj340YYaK_W")
                 .queryParams("redirect_uri", "https://rahulshettyacademy.com/getCourse.php")
                 .queryParams("grant_type", "authorization_code")
                 .when().log().all()
@@ -43,10 +44,33 @@ public class OAuthTest {
         String accessToken = js.getString("access_token");
 
 
-        String response = given().queryParam("access_token", accessToken)
-                .when().log().all()
-                .get("https://rahulshettyacademy.com/getCourse.php").asString();
+        GetCourse gc = given().queryParam("access_token", accessToken)
+                .expect().defaultParser(Parser.JSON)
+                .when()
+                .get("https://rahulshettyacademy.com/getCourse.php").as(GetCourse.class);
 
-        System.out.println(response);
+        System.out.println(gc.getLinkedIn());
+        gc.getInstructor();
+        gc.getCourses().getApi().get(1).getCourseTitle();
+
+        List<Api> apiCpurses = gc.getCourses().getApi();
+        for (int i = 0; i < apiCpurses.size(); i++) {
+            if (apiCpurses.get(i).getCourseTitle().equalsIgnoreCase("SoapUI Webservices testing")) {
+                System.out.println(apiCpurses.get(i).getPrice());
+                gc.getCourses().getMobile().get(1).getCourseTitle();
+            }
+        }
+
+        //Get the course names of WebAutomation
+        String[] courseTitles = {"Selenium Webdriever Java", "Cypress", "Protractor"};
+        ArrayList<String> a = new ArrayList<String>();
+
+        List<WebAutomation> w = gc.getCourses().getWebAutomation();
+        for (int j = 0; j < w.size(); j++) {
+            a.add(w.get(j).getCourseTitle());
+        }
+
+        List<String> expectedList = Arrays.asList(courseTitles);
+        Assert.assertTrue(a.equals(expectedList));
     }
 }

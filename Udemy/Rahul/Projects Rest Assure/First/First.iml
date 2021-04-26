@@ -26,5 +26,7 @@
     <orderEntry type="library" name="byte-buddy-1.8.15" level="project" />
     <orderEntry type="library" name="client-combined-3.141.59" level="project" />
     <orderEntry type="library" name="guava-25.0-jre" level="project" />
+    <orderEntry type="library" name="gson-2.8.6" level="project" />
+    <orderEntry type="library" name="jackson-annotations-2.12.2" level="project" />
   </component>
 </module>
