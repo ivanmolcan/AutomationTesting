@@ -1,0 +1,5 @@
+stepDefinitions\StepDefinition.class
+pojo\Location.class
+cucumber\Options\TestRunner.class
+pojo\AddPlace.class
+sk\ivanmolcan\AppTest.class

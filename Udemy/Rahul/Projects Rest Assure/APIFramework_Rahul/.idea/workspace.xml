@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8a26da26-7782-4b6a-aa00-847c7630d525" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../APIFramework/src/test/java/pojo/AddPlace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../APIFramework/src/test/java/pojo/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../APIFramework/src/test/java/stepDefinitions/StepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_osgi_2_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_core_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_expressions_7_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_java_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_junit_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_datatable_1_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_datatable_dependencies_1_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_gherkin_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_tag_expressions_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_path_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_common_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_xml_path_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_sling_org_apache_sling_javax_activation_0_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_5_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_2_5_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_2_5_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIFramework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bdd/APIFramework/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/AddPlace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/Options/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/placeValidations.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/APIResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/TestDataBuild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/global.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinations/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinations/StepDefination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIFramework/src/test/java/cucumber/Options/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../APIFramework/src/test/java/cucumber/Options/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APIFramework/target/test-classes/cucumber/Options/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../APIFramework/target/test-classes/cucumber/Options/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstMaven/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstMaven/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstMaven/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstMaven/.idea/libraries/btf_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstMaven/.idea/libraries/commons_lang3_3_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstMaven/.idea/libraries/json_path_4_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstMaven/.idea/libraries/json_path_4_3_3_javadoc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstMaven/.idea/libraries/json_schema_validator_4_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstMaven/.idea/libraries/json_schema_validator_4_3_3_javadoc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstMaven/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstMaven/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstMaven/FirstMaven.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstMaven/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstMaven/src/main/java/sk/ivanmolcan/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstMaven/src/test/java/sk/ivanmolcan/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstMaven/target/test-classes/sk/ivanmolcan/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Postman Projects OAuth/OAuthexplore.postman_collection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Postman Projects OAuth/oauthShortCut.postman_collection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/demo/oAuthTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/demo/test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/pojo/Api.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/pojo/Courses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/pojo/GetCourse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/pojo/Mobile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/pojo/WebAutomation.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1rlCMUaJh5m5DfllY6f0cpfYH1w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a26da26-7782-4b6a-aa00-847c7630d525" name="Default Changelist" comment="" />
+      <created>1619541242574</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619541242574</updated>
+    </task>
+    <servers />
+  </component>
+</project>

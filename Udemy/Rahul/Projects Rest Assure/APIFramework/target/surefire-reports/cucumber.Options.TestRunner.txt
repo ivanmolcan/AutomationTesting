@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.Options.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.134 s <<< FAILURE! - in cucumber.Options.TestRunner
+initializationError(cucumber.Options.TestRunner)  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.IllegalArgumentException: path must exist: D:\Doc\Programovanie\Automation Testing\Udemy\Rahul\Projects_Rest_Assure\APIFramework\src\test\java\feature
+
