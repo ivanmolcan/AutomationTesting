@@ -1,63 +1,65 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cucumber.Options.TestRunner" time="0.134" tests="1" errors="1" skipped="0" failures="0">
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="cucumber.Options.TestRunner" time="9.573" errors="0" skipped="0">
   <properties>
-    <property name="java.specification.version" value="16"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\Doc\Programovanie\Automation Testing\Udemy\Rahul\Projects_Rest_Assure\APIFramework\target\test-classes;D:\Doc\Programovanie\Automation Testing\Udemy\Rahul\Projects_Rest_Assure\APIFramework\target\classes;C:\Users\Ivan\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Ivan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Ivan\.m2\repository\io\cucumber\cucumber-java\6.10.2\cucumber-java-6.10.2.jar;C:\Users\Ivan\.m2\repository\io\cucumber\cucumber-core\6.10.2\cucumber-core-6.10.2.jar;C:\Users\Ivan\.m2\repository\io\cucumber\cucumber-gherkin\6.10.2\cucumber-gherkin-6.10.2.jar;C:\Users\Ivan\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.2\cucumber-gherkin-messages-6.10.2.jar;C:\Users\Ivan\.m2\repository\io\cucumber\messages\14.0.1\messages-14.0.1.jar;C:\Users\Ivan\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\Ivan\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Ivan\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Ivan\.m2\repository\io\cucumber\cucumber-plugin\6.10.2\cucumber-plugin-6.10.2.jar;C:\Users\Ivan\.m2\repository\io\cucumber\docstring\6.10.2\docstring-6.10.2.jar;C:\Users\Ivan\.m2\repository\io\cucumber\html-formatter\12.0.0\html-formatter-12.0.0.jar;C:\Users\Ivan\.m2\repository\io\cucumber\create-meta\3.0.0\create-meta-3.0.0.jar;C:\Users\Ivan\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Ivan\.m2\repository\io\cucumber\cucumber-junit\6.10.2\cucumber-junit-6.10.2.jar;C:\Users\Ivan\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\Ivan\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\Users\Ivan\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\Users\Ivan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Ivan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Ivan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Ivan\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Ivan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\Ivan\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Ivan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Ivan\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\Ivan\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\Users\Ivan\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\Ivan\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\Ivan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Ivan\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Ivan\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Ivan\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Ivan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\Ivan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\Ivan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="user.timezone" value="Europe/Bratislava"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="java.vm.specification.version" value="16"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="US"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="16+36-2231"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16\bin"/>
-    <property name="sun.java.command" value="C:\Users\Ivan\AppData\Local\Temp\surefire14719531353583984365\surefirebooter8117726731022559923.jar C:\Users\Ivan\AppData\Local\Temp\surefire14719531353583984365 2021-04-27T18-51-45_374-jvmRun1 surefire10386999557112346285tmp surefire_012112177505020262135tmp"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Doc\Programovanie\Automation Testing\Udemy\Rahul\Projects Rest Assure\APIFramework"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Doc\Programovanie\Automation Testing\Udemy\Rahul\Projects Rest Assure\APIFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="16+36-2231"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Ivan\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\Doc\Programovanie\Java\Plugins\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;D:\Doc\Programovanie\PLSQL\Install\WINDOWS.X64_193000_db_home\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MongoDB\Server\3.2\bin;D:\Doc\Programovanie\Java\Plugins\apache-maven-3.6.3\bin\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\EAC MW klient\;C:\Program Files\Java\jdk-16\bin;C:\Program Files\Git\cmd;C:\Users\Ivan\AppData\Local\Android\Sdk\tools\bin;C:\Users\Ivan\AppData\Local\Android\Sdk\tools;C:\Users\Ivan\AppData\Local\Android\Sdk\platform-tools;D:\Program files\nodejs;D:\Program files\nodejs\node_modules\npm\bin;C:\Program Files\Android\Android Studio\jre\bin;C:\Users\Ivan\AppData\Local\Microsoft\WindowsApps;;D:\Program files\IntelliJ IDEA Community Edition 2020.2.3\bin;;C:\Users\Ivan\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="D:\Doc\Programovanie\Java\Plugins\apache-maven-3.6.3\bin\../conf"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\Doc\Programovanie\Automation Testing\Udemy\Rahul\Projects_Rest_Assure\APIFramework\target\test-classes;D:\Doc\Programovanie\Automation Testing\Udemy\Rahul\Projects_Rest_Assure\APIFramework\target\classes;C:\Users\Ivan\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Ivan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Ivan\.m2\repository\io\cucumber\cucumber-java\6.10.2\cucumber-java-6.10.2.jar;C:\Users\Ivan\.m2\repository\io\cucumber\cucumber-core\6.10.2\cucumber-core-6.10.2.jar;C:\Users\Ivan\.m2\repository\io\cucumber\cucumber-gherkin\6.10.2\cucumber-gherkin-6.10.2.jar;C:\Users\Ivan\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.2\cucumber-gherkin-messages-6.10.2.jar;C:\Users\Ivan\.m2\repository\io\cucumber\messages\14.0.1\messages-14.0.1.jar;C:\Users\Ivan\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\Ivan\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Ivan\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Ivan\.m2\repository\io\cucumber\cucumber-plugin\6.10.2\cucumber-plugin-6.10.2.jar;C:\Users\Ivan\.m2\repository\io\cucumber\docstring\6.10.2\docstring-6.10.2.jar;C:\Users\Ivan\.m2\repository\io\cucumber\html-formatter\12.0.0\html-formatter-12.0.0.jar;C:\Users\Ivan\.m2\repository\io\cucumber\create-meta\3.0.0\create-meta-3.0.0.jar;C:\Users\Ivan\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Ivan\.m2\repository\io\cucumber\cucumber-junit\6.10.2\cucumber-junit-6.10.2.jar;C:\Users\Ivan\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\Ivan\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\Users\Ivan\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\Users\Ivan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Ivan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Ivan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Ivan\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Ivan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\Ivan\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Ivan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Ivan\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\Ivan\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\Users\Ivan\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\Ivan\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\Ivan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Ivan\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Ivan\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Ivan\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Ivan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\Ivan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\Ivan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.class.version" value="60.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\Doc\Programovanie\Java\Plugins\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
     <property name="user.home" value="C:\Users\Ivan"/>
+    <property name="user.timezone" value="Europe/Bratislava"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="16"/>
+    <property name="user.name" value="Ivan"/>
+    <property name="java.class.path" value="D:\Doc\Programovanie\Java\Plugins\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test verify"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-16"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2021-03-16"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-16"/>
-    <property name="file.separator" value="\"/>
-    <property name="basedir" value="D:\Doc\Programovanie\Automation Testing\Udemy\Rahul\Projects_Rest_Assure\APIFramework"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Ivan\AppData\Local\Temp\surefire14719531353583984365\surefirebooter8117726731022559923.jar"/>
-    <property name="user.script" value=""/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="16+36-2231"/>
-    <property name="user.name" value="Ivan"/>
-    <property name="path.separator" value=";"/>
-    <property name="os.version" value="10.0"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="C:\Users\Ivan\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\Ivan\AppData\Local\Temp\"/>
-    <property name="idea.version" value="2021.1"/>
-    <property name="java.version" value="16"/>
-    <property name="user.dir" value="D:\Doc\Programovanie\Automation Testing\Udemy\Rahul\Projects_Rest_Assure\APIFramework"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;D:\Doc\Programovanie\PLSQL\Install\WINDOWS.X64_193000_db_home\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MongoDB\Server\3.2\bin;D:\Doc\Programovanie\Java\Plugins\apache-maven-3.6.3\bin\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\EAC MW klient\;C:\Program Files\Java\jdk-16\bin;C:\Program Files\Git\cmd;C:\Users\Ivan\AppData\Local\Android\Sdk\tools\bin;C:\Users\Ivan\AppData\Local\Android\Sdk\tools;C:\Users\Ivan\AppData\Local\Android\Sdk\platform-tools;D:\Program files\nodejs;D:\Program files\nodejs\node_modules\npm\bin;C:\Program Files\Android\Android Studio\jre\bin;C:\Users\Ivan\AppData\Local\Microsoft\WindowsApps;;D:\Program files\IntelliJ IDEA Community Edition 2020.2.3\bin;;C:\Users\Ivan\AppData\Roaming\npm;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="16"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="16+36-2231"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="D:\Doc\Programovanie\Java\Plugins\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-03-16"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="60.0"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="initializationError" classname="cucumber.Options.TestRunner" time="0.005">
-    <error message="path must exist: D:\Doc\Programovanie\Automation Testing\Udemy\Rahul\Projects_Rest_Assure\APIFramework\src\test\java\feature" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: path must exist: D:\Doc\Programovanie\Automation Testing\Udemy\Rahul\Projects_Rest_Assure\APIFramework\src\test\java\feature
-</error>
-  </testcase>
+  <testcase classname="Validatin Place API&apos;s" name="Verify if Place is being Succesfully added using AddPlaceAPI #1" time="6.453"/>
+  <testcase classname="Validatin Place API&apos;s" name="Verify if Place is being Succesfully added using AddPlaceAPI #2" time="3.12"/>
 </testsuite>
